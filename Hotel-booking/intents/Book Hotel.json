@@ -1,0 +1,106 @@
+{
+  "id": "af2b2517-e3bb-4cdf-9318-5532d35dc77d",
+  "name": "Book Hotel",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "1ea0db95-12e1-4cde-890d-3e16a8b634b4",
+          "required": true,
+          "dataType": "@sys.given-name",
+          "name": "given-name",
+          "value": "$given-name",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please provide your name"
+            },
+            {
+              "lang": "en",
+              "value": "What is your name?"
+            },
+            {
+              "lang": "en",
+              "value": "What your name is?"
+            },
+            {
+              "lang": "en",
+              "value": "Your name please?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "e3765414-8f41-49e0-917c-f736a1fd604f",
+          "required": true,
+          "dataType": "@sys.number",
+          "name": "number",
+          "value": "$number",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "How many rooms you want to book"
+            },
+            {
+              "lang": "en",
+              "value": "How many rooms?"
+            },
+            {
+              "lang": "en",
+              "value": "Please tell the number of rooms?"
+            },
+            {
+              "lang": "en",
+              "value": "The rooms are available how many rooms you want?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "c61578a1-93df-4adb-aec1-606d24c6a48d",
+          "required": true,
+          "dataType": "@sys.email",
+          "name": "email",
+          "value": "$email",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Also, Please tell us your email"
+            },
+            {
+              "lang": "en",
+              "value": "Please enter your email"
+            },
+            {
+              "lang": "en",
+              "value": "What is your email"
+            },
+            {
+              "lang": "en",
+              "value": "Your email?"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Okay We have booked rooms for you"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,101 @@
+[
+  {
+    "id": "c9d15d33-7ecc-457b-b3fb-061b9f6aff8c",
+    "data": [
+      {
+        "text": "my email address is ",
+        "userDefined": false
+      },
+      {
+        "text": "Abc@gmail.com",
+        "alias": "email",
+        "meta": "@sys.email",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "7fea118b-3541-4573-a1ae-92a8c178d6bf",
+    "data": [
+      {
+        "text": "I want to book ",
+        "userDefined": false
+      },
+      {
+        "text": "3",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " rooms",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "3d11c1df-e29c-4c9e-8ef8-3faefa22e1e1",
+    "data": [
+      {
+        "text": "my name is ",
+        "userDefined": false
+      },
+      {
+        "text": "john",
+        "alias": "given-name",
+        "meta": "@sys.given-name",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "e898bfc3-a1bf-4154-9b32-dcb8fac98ef4",
+    "data": [
+      {
+        "text": "I want to book the hotel",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "a209d57d-1a3e-4e98-9e6f-8b52a8ef0e09",
+    "data": [
+      {
+        "text": "I want to do reservation for a hotel room",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "c69ab66a-3ab7-46b4-a26d-b74e5413f51e",
+    "data": [
+      {
+        "text": "I want to book hotel",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "3a679e4f-9704-449e-8468-d637537d4d9e",
+    "data": [
+      {
+        "text": "I want to book a room",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]
