@@ -5,9 +5,9 @@ const functions = require('firebase-functions');
 
  exports.webhook = functions.https.onRequest((request, response) => {
 
-  console.log("request.body.queryResult.parameters: ", request.body.queryResult.parameters);
-    let params = request.body.queryResult.parameters;
+  console.log("request.body.result.parameters: ", request.body.result.parameters);
+    let params = request.body.result.parameters;
        response.send({
-        fulfillmentText:`${params.name} Your hotel booking for ${params.persons} have been booked and you will get reply soon at ${params.email}`
+        speech:`${params.name} Your hotel booking for ${params.persons} have been booked and you will get reply soon at ${params.email}`
        });
  });
